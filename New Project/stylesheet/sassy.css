@@ -1,0 +1,14 @@
+body {
+  background-color: #BD335C;
+  text-align: center;
+  border: 1px solid black; }
+  body h1 {
+    color: blue;
+    font-size: 2em;
+    font-family: 'Rock Salt', 'cursive'; }
+  body p {
+    font-family: 'ABeeZee', sans-serif;
+    color: gray;
+    font-size: 1em; }
+
+/*# sourceMappingURL=sassy.css.map */

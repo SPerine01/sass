@@ -1,0 +1,24 @@
+$sassy-color: #BD335C;
+
+@mixin kelis ($sassy-color){
+	background-color: $sassy-color;
+}
+
+body{
+	@include kelis ($sassy-color);
+	text-align: center;
+	border: 1px solid black;
+	h1 {
+		color: blue;
+		font-size: 2em;
+		font-family: 'Rock Salt', 'cursive';
+	}
+
+	p {
+		font-family: 'ABeeZee', sans-serif;
+		color: gray;
+		font-size: 1em;
+	}
+
+}
+

@@ -1,0 +1,10 @@
+@import "bourbon/bourbon";
+
+body {
+background: tint (blue, 20%);
+font-family: $helvetica;
+
+p {
+	color: green;
+}
+}

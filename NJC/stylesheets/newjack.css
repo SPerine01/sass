@@ -1,0 +1,26 @@
+body {
+  background-color: SteelBlue;
+  color: white; }
+  body .navbar-header, body .jumbotron, body .njc, body .nino, body footer {
+    text-align: center; }
+  body .jumbotron {
+    background-color: navy;
+    color: white; }
+  body li {
+    background-color: white;
+    opacity: 0.3; }
+  body #money {
+    margin-top: 25px; }
+  body .njc {
+    margin-bottom: 25px; }
+  body .pet {
+    float: left;
+    margin-bottom: 40px; }
+  body .kid {
+    float: right;
+    margin-bottom: 40px; }
+  body .cream {
+    clear: both;
+    margin-bottom: 40px; }
+
+/*# sourceMappingURL=newjack.css.map */

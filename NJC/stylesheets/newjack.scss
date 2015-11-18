@@ -1,0 +1,54 @@
+// $font-stuff: 'Montserrat', sans-serif;
+$main-color: SteelBlue;
+
+body {
+	background-color: $main-color;
+	color: white;
+
+	.navbar-header {
+		text-align: center;
+		}
+
+	.jumbotron {
+		@extend .navbar-header;
+		background-color: navy;
+		color: white;
+	}
+
+	li {
+		background-color: white;
+		opacity: 0.3;
+	}
+
+	#money {
+		margin-top: 25px;
+	}
+
+	.njc {
+		@extend .navbar-header;
+		margin-bottom: 25px;
+	}
+
+	.nino {
+		@extend .navbar-header;
+	}
+
+	footer {
+		@extend .navbar-header;
+	}
+
+	.pet {
+		float: left;
+		margin-bottom: 40px;
+	}
+
+	.kid {
+		float: right;
+		margin-bottom: 40px;
+	}
+
+	.cream {
+		clear: both;
+		margin-bottom: 40px;
+	}
+}
